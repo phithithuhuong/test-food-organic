@@ -1,0 +1,325 @@
+import { CartItem, FeatureItem, Product } from "./type";
+export const DataCount = [
+  { count: "19K", des1: "Variety of", des2: "Products" },
+  { count: "9K", des1: "Happy", des2: "Customers" },
+  { count: "10", des1: "Store", des2: "Locations" },
+];
+export const DataCard = [
+  {
+    icon: "/refretch.png",
+    label: "Fresh from farm",
+    des: "Consectetur adipiscing elit Sagittis sed ptibus",
+    color: "#F95F09",
+    label_color: "orange",
+  },
+  {
+    icon: "/codefresh.png",
+    label: "100% Organic",
+    des: "Consectetur adipiscing elit Sagittis sed ptibus",
+    color: "#364127",
+    label_color: "black",
+  },
+  {
+    icon: "/car.png",
+    label: "Free delivery",
+    des: "Consectetur adipiscing elit Sagittis sed ptibus",
+    color: "#6BB252",
+    label_color: "green",
+  },
+];
+export const categories = [
+  { id: 1, name: "Fruits & Veges", image: "/product3.png" },
+  { id: 2, name: "Home & Garden", image: "/cate2.png" },
+  { id: 3, name: "Clothing & Accessories", image: "/cate3.png" },
+  { id: 4, name: "Sports & Outdoors", image: "/cate4.png" },
+  { id: 5, name: "Books & Magazines", image: "/cate5.png" },
+  { id: 6, name: "Health & Beauty", image: "/cate6.png" },
+  { id: 7, name: "Toys & Games", image: "/cate7.png" },
+  { id: 8, name: "Pets & Animals", image: "/cate8.png" },
+];
+
+export const products: Product[] = [
+  {
+    image: "/product1.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product2.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product1.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product2.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product3.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+  {
+    image: "/product2.png",
+    title: "Munch Crunchy Cookies",
+    price: 11,
+    price_sale: 8,
+    cent_sale: 10,
+    star: 4.5,
+    comments: 221,
+  },
+];
+
+export const CardPost: CartItem[] = [
+  {
+    img: "/img_card.png",
+    title:
+      "10 Crazy ways to minimize oil in your diet with numerous health benefits",
+    description:
+      "consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...",
+    date: "12th Jan 2024",
+  },
+  {
+    img: "/img_card2.png",
+    title:
+      "Healthiest meat recipe for all the age group including Heart patients",
+    description:
+      "consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...",
+    date: "12th Jan 2024",
+  },
+  {
+    img: "/img_card3.png",
+    title: "Right way to preserve the fruits & other organics",
+    description:
+      "consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...",
+    date: "12th Jan 2024",
+  },
+];
+
+export const Features: FeatureItem[] = [
+  {
+    icon: "/arcticons_aftership.png",
+    title: "Free delivery",
+    description: "Lorem ipsum dolor sit amet, consectetur adipi elit.",
+  },
+  {
+    icon: "/arcticons_samsung-secure.png",
+    title: "Secure Payment",
+    description: "Lorem ipsum dolor sit amet, consectetur adipi elit.",
+  },
+  {
+    icon: "/arcticons_afwall.png",
+    title: "Quality guarantee",
+    description: "Lorem ipsum dolor sit amet, consectetur adipi elit.",
+  },
+  {
+    icon: "/arcticons_akakce.png",
+    title: "Quality guarantee",
+    description: "Lorem ipsum dolor sit amet, consectetur adipi elit.",
+  },
+  {
+    icon: "/arcticons_animation-crazy.png",
+    title: "Guaranteed Savings",
+    description: "Lorem ipsum dolor sit amet, consectetur adipi elit.",
+  },
+];
+
+export const Peoples = [
+  "Blue diamon almonds",
+  "Angie’s Boomchickapop Corn",
+  "Salty kettle Corn",
+  "Chobani Greek Yogurt",
+  "Sweet Vanilla Yogurt",
+  "Foster Farms Takeout Crispy wings",
+  "Warrior Blend Organic",
+  "Blue diamon almonds",
+  "Angie’s Boomchickapop Corn",
+  "Salty kettle Corn",
+  "Chobani Greek Yogurt",
+  "Sweet Vanilla Yogurt",
+  "Foster Farms Takeout Crispy wings",
+  "Warrior Blend Organic",
+  "Blue diamon almonds",
+  "Angie’s Boomchickapop Corn",
+  "Sweet Vanilla essence Yogurt",
+];
+
+export const quickLinks = [
+  "Home",
+  "About Us",
+  "Offer",
+  "Services",
+  "Contacts",
+  "Us",
+];
+export const aboutLinks = [
+  "How It Work",
+  "Our Packages",
+  "Promotions",
+  "Refer A Friend",
+];
+
+export const helpLinks = [
+  "Payment",
+  "Shipping",
+  "Product",
+  "Returns",
+  "FAQs",
+  "Checkout",
+  "Order Issues",
+];
+
+export const Menu = [
+  { icon: "/icon1.png", name: "Fruits and vegetables" },
+  { icon: "/icon2.png", name: "Dairy and Eggs" },
+  { icon: "/icon3.png", name: "Meat and Poultry" },
+  { icon: "/icon4.png", name: "Seafood" },
+  { icon: "/icon5.png", name: "Beverages" },
+  { icon: "/icon6.png", name: "Health and Beauty" },
+  { icon: "/icon7.png", name: "Cleaning and Home" },
+  { icon: "/icon8.png", name: "Bakery and Cakes" },
+  { icon: "/icon9.png", name: "Groceries" },
+  { icon: "/icon10.png", name: "Electronics" },
+  { icon: "/icon11.png", name: "Sports and Outdoors" },
+  { name: "water, juice, soda, and tea" },
+  { icon: "/icon13.png", name: "Travel and Tourism" },
+  { icon: "/icon14.png", name: "Services" },
+  { icon: "/icon15.png", name: "More" },
+  { name: "Fruits and vegetables" },
+  { icon: "/icon17.png", name: "Dairy and Eggs" },
+  { icon: "/icon18.png", name: "Meat and Poultry" },
+  { icon: "/icon19.png" },
+];
