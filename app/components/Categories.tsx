@@ -5,7 +5,7 @@ import CardRadiusItem from "../Base/CardRadiusItem";
 
 const CategoriesScreen = () => {
   return (
-    <div className="max-w-[1600px] w-full my-10 items-center flex flex-col px-2.5">
+    <div className="max-w-[1600px] w-full my-10 items-center flex flex-col px-5">
       <TextLabelBase
         label={"Popular categories"}
         see_more="View All Categories"

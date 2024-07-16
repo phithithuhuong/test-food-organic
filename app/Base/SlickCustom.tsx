@@ -19,35 +19,9 @@ export const SliderBase: React.FC = () => {
     infinite: false,
     speed: 500,
     slidesToShow: 8,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     initialSlide: 0,
     afterChange: (current: number) => setCurrentSlide(current),
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
   };
   const nextSlide = () => {
     if (sliderRef.current) {
@@ -60,6 +34,7 @@ export const SliderBase: React.FC = () => {
       sliderRef.current.slickPrev();
     }
   };
+  console.log("currentSlide", currentSlide);
 
   return (
     <div className="max-w-[1600px] w-full items-center flex flex-col">

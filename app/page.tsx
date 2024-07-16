@@ -1,8 +1,8 @@
 import { SliderBase } from "./Base/SlickCustom";
-import SimpleSlider from "./Base/demo";
 import AdvertisementScreen from "./components/Advertisement";
 import BannerScreen from "./components/Banner";
 import CategoriesScreen from "./components/Categories";
+import CategoriesSlider from "./components/CategorisSlider";
 import DownloadAppScreen from "./components/DowloadApp";
 import FeaturesScreen from "./components/Features";
 import LatestArticles from "./components/LatestArticles";
@@ -21,9 +21,9 @@ export default function Home() {
         <HeaderScreen />
         <BannerScreen />
       </div>
-      {/* <SimpleSlider /> */}
       {/* <SliderBase /> */}
-      <CategoriesScreen />
+      <CategoriesSlider />
+      {/* <CategoriesScreen /> */}
       <ProductsScreen />
       <AdvertisementScreen />
       <ProductsSellingScreen />

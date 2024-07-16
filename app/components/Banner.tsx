@@ -5,9 +5,9 @@ import { DataCard, DataCount } from "../data";
 
 const BannerScreen: React.FC = () => {
   return (
-    <div className="w-full flex flex-col items-center px-2.5">
+    <div className="w-full flex flex-col items-center px-5">
       <div className=" max-w-[1280px] w-full">
-        <div className="pt-[122px] w-[580px] text-[69px] leading-[82px] flex flex-col">
+        <div className="pt-[122px] lg:w-[580px] text-[69px] leading-[82px] flex flex-col">
           <span>
             <span className="font-bold  text-primary">Organic</span> Foods
           </span>
@@ -32,7 +32,7 @@ const BannerScreen: React.FC = () => {
             </div>
           ))}
         </div>
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <div className="flex flex-col md:flex-row absolute bottom-0 left-1/2 transform -translate-x-1/2">
             {DataCard.map((item, index) => (
               <div

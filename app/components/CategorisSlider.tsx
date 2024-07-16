@@ -1,33 +1,34 @@
 "use client";
 
-import { products } from "../data";
-import ProductItem from "../Base/ProductItem";
 import { SliderCustom } from "../Base/SliderCustom";
-import { map } from "lodash";
 import { SwiperSlide } from "swiper/react";
+import { categories } from "../data";
+import { map } from "lodash";
+import CardRadiusItem from "../Base/CardRadiusItem";
 
-const ProductsSellingScreen: React.FC = () => {
+const CategoriesSlider = () => {
   return (
-    <div className="w-full max-w-[1600px] pb-10 px-2.5 ">
+    <div className="max-w-[1600px] w-full mb-10 items-center flex flex-col px-2.5">
       <SliderCustom
         autoplay={{
           delay: 5000,
           disableOnInteraction: true,
           stopOnLastSlide: false,
         }}
-        numberPerView={6}
+        numberPerView={8}
         slidesPerGroup={2}
-        spaceBetween={30}
-        title={"Best selling products"}
+        spaceBetween={31}
+        title={"Popular Categories"}
+        see_more="View All Categories"
       >
         <div className="flex items-stretch">
-          {map(products, (product, index) => {
+          {map(categories, (category, index) => {
             return (
               <SwiperSlide key={index} style={{ width: "544px" }}>
-                <ProductItem
-                  product={product}
+                <CardRadiusItem
                   key={Math.random()}
-                  rateColor="green"
+                  label={category.name}
+                  img={category.image}
                 />
               </SwiperSlide>
             );
@@ -38,4 +39,4 @@ const ProductsSellingScreen: React.FC = () => {
   );
 };
 
-export default ProductsSellingScreen;
+export default CategoriesSlider;

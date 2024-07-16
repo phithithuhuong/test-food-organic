@@ -70,7 +70,7 @@ const ProductItem: React.FC<Props> = ({
         </div>
       </div>
       {isHover && (
-        <div className="absolute  top-0 left-0 right-0 z-10 bg-white rounded-[20px] shadow-lg">
+        <div className="absolute  top-0 left-0 right-0 z-[999999] bg-white rounded-[20px] shadow-lg">
           <ItemHover
             product={product}
             rateColor={rateColor}

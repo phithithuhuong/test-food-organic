@@ -36,6 +36,14 @@ export const categories = [
   { id: 6, name: "Health & Beauty", image: "/cate6.png" },
   { id: 7, name: "Toys & Games", image: "/cate7.png" },
   { id: 8, name: "Pets & Animals", image: "/cate8.png" },
+  { id: 1, name: "Fruits & Veges", image: "/product3.png" },
+  { id: 2, name: "Home & Garden", image: "/cate2.png" },
+  { id: 3, name: "Clothing & Accessories", image: "/cate3.png" },
+  { id: 4, name: "Sports & Outdoors", image: "/cate4.png" },
+  { id: 5, name: "Books & Magazines", image: "/cate5.png" },
+  { id: 6, name: "Health & Beauty", image: "/cate6.png" },
+  { id: 7, name: "Toys & Games", image: "/cate7.png" },
+  { id: 8, name: "Pets & Animals", image: "/cate8.png" },
 ];
 
 export const products: Product[] = [
