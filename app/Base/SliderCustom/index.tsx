@@ -88,6 +88,23 @@ export const SliderCustom: FC<Props> = ({
       </div>
 
       <Swiper
+        breakpoints={{
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: numberPerView,
+            spaceBetween: spaceBetween,
+          },
+        }}
         style={{ zIndex: 0 }}
         autoplay={autoplay}
         slidesPerView={numberPerView}
