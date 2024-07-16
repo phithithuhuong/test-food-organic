@@ -7,11 +7,11 @@ type Props = {
 
 const CardPostItem: React.FC<Props> = ({ item }) => {
   return (
-    <div className="max-w-[500px] w-full">
+    <div className="lg:max-w-[500px] flex flex-col lg:flex-col md:flex-row  w-full">
       <img
         src={item.img}
         alt={item.title}
-        className="w-[498px] h-[240px] object-cover"
+        className=" min-w-[300px] h-[300px] lg:w-[498px] lg:h-[240px] object-cover "
       />
       <div className="p-[30px] flex flex-col border">
         <div className=" pt-2.5 flex items-center text-[#828282] font-base leading-9 space-x-5 ">

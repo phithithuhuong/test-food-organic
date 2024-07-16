@@ -8,7 +8,7 @@ const CardRadiusItem: React.FC<Props> = ({ img, label }) => {
       <img
         src={img}
         alt="Img"
-        className="w-[160px] h-[160px] rounded-full object-cover transition duration-300 ease-in-out"
+        className="w-[160px] h-[160px] rounded-full object-cover hover:z-10 duration-200 hover:scale-[1.1] "
       />
       <span className="mt-5 text-base leading-5 whitespace-nowrap">
         {label}

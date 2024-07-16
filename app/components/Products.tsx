@@ -9,13 +9,15 @@ const ProductsScreen: React.FC = () => {
       <div className="py-[30px]">
         <TextLabelBase label="Freshly arrived" button="View All" />
       </div>
-      <div className="my-10 lg:grid-cols-6 md:grid-cols-4 grid grid-cols-2 gap-[30px] ">
+      <div className="my-10 lg:grid-cols-6 md:grid-cols-4 grid grid-cols-2 gap-[30px] relative">
         {products.map((product) => (
-          <ProductItem
-            product={product}
-            key={Math.random()}
-            rateColor="yellow"
-          />
+          <div key={Math.random()}>
+            <ProductItem
+              product={product}
+              key={Math.random()}
+              rateColor="yellow"
+            />
+          </div>
         ))}
       </div>
     </div>

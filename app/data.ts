@@ -1,8 +1,8 @@
 import { CartItem, FeatureItem, Product } from "./type";
 export const DataCount = [
-  { count: "19K", des1: "Variety of", des2: "Products" },
-  { count: "9K", des1: "Happy", des2: "Customers" },
-  { count: "10", des1: "Store", des2: "Locations" },
+  { count: "19K", countUp: 19, des1: "Variety of", des2: "Products" },
+  { count: "9K", countUp: 9, des1: "Happy", des2: "Customers" },
+  { count: "10", countUp: 10, des1: "Store", des2: "Locations" },
 ];
 export const DataCard = [
   {

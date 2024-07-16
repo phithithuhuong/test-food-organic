@@ -1,7 +1,9 @@
-import React from "react";
+"use client";
+
 import ButtonRoundFull from "../Base/Button";
 import classNames from "classnames";
 import { DataCard, DataCount } from "../data";
+import CountUp from "react-countup";
 
 const BannerScreen: React.FC = () => {
   return (
@@ -12,7 +14,7 @@ const BannerScreen: React.FC = () => {
             <span className="font-bold  text-primary">Organic</span> Foods
           </span>
           <span className="flex flex-col md:flex-row whitespace-nowrap">
-            at your <span className="font-bold"> Doorsteps</span>
+            at your <span className="font-bold px-3"> Doorsteps</span>
           </span>
         </div>
         <div className="flex flex-row my-10 space-x-5">
@@ -23,7 +25,8 @@ const BannerScreen: React.FC = () => {
           {DataCount.map((item, index) => (
             <div key={index} className="flex flex-row items-center space-x-2.5">
               <span className="font-bold text-[32px] leading-[38px]">
-                {item.count}+
+                <CountUp end={item.countUp as number} start={0} />
+                K+
               </span>
               <div className="flex flex-col uppercase text-sm leading-4">
                 <span>{item.des1} </span>
